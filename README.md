@@ -3,7 +3,7 @@
 ## Student Details
 
 - **Full Name:** `Divyesh Challa`
-- **CCID:** `divyesh`
+- **CCID:** `Divyesh`
 
 ## References and Resources
 
