@@ -77,7 +77,7 @@ fun CityListScreen(
                     value = newCityName,
                     onValueChange = { newCityName = it },
                     label = { Text("City") },
-                    modifier = Modifier.weight(1f)
+                    modifier = Modifier.weight(1.3f)
                 )
 
                 Spacer(modifier = Modifier.width(8.dp))
@@ -241,19 +241,19 @@ fun CityRow(
                 else Modifier
             )
             .clickable { onClick() }
-            .padding(horizontal = 20.dp, vertical = 16.dp),
+            .padding(horizontal = 20.dp, vertical = 14.dp),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Text(
             text = city.name,
-            fontSize = 30.sp,
+            fontSize = 22.sp,
             modifier = Modifier.weight(1f)
         )
 
         Text(
             text = city.province,
-            fontSize = 30.sp,
-            modifier = Modifier.weight(1f)
+            fontSize = 22.sp,
+            modifier = Modifier.padding(horizontal = 12.dp)
         )
 
         Button(
@@ -261,8 +261,7 @@ fun CityRow(
             colors = ButtonDefaults.buttonColors(
                 containerColor = MaterialTheme.colorScheme.error
             ),
-            contentPadding = PaddingValues(horizontal = 12.dp, vertical = 4.dp),
-            modifier = Modifier.padding(start = 8.dp)
+            contentPadding = PaddingValues(horizontal = 12.dp, vertical = 4.dp)
         ) {
             Text("DELETE", fontSize = 12.sp)
         }
