@@ -2,16 +2,19 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Divyesh Challa`
+- **CCID:** `divyesh`
 
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
 
+- CMPUT 301 Lab 5 - Firestore Integration Instructions & Slides
+- Google Firebase Firestore Documentation
+- Android Jetpack Compose Documentation
+
 ## Verbal Collaboration
 
 | Student Name | CCID      |
 | ------------ | --------- |
-| `student`    | `student` |
-| `<Add more>` | `<CCID>`  |
+| N/A          | N/A       |

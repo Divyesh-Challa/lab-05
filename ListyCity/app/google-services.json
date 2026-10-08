@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302298945650",
+    "project_id": "fir-tutorial-cc992",
+    "storage_bucket": "fir-tutorial-cc992.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302298945650:android:d1657710f432dc182d8aeb",
+        "android_client_info": {
+          "package_name": "com.example.listycity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBls7dSzfaLq0G_O4Vbns994VvktxlE6Os"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
